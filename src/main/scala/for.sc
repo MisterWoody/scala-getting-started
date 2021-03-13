@@ -5,5 +5,6 @@ val currencies = Array("USD", "NZD")
 val result: Array[String] = for {
   amount <- amounts
   currency <- currencies
-  if amount > 20 && (currency == "NZD")
+  if amount > 20 && (currency == "NZD" || currency == "USD")
 } yield currency + " " + amount
+
