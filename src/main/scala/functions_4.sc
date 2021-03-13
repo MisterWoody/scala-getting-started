@@ -8,4 +8,6 @@ def logTransaction(amount: Double,
 logTransaction(100.25)
 logTransaction(23.15)
 logTransaction(89.33)
+logTransaction(89.33, false, "NZD")
+logTransaction(89.33, currency = "CAD", debit = false)
 
