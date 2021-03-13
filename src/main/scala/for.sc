@@ -8,3 +8,5 @@ val result: Array[String] = for {
   if amount > 20 && (currency == "NZD" || currency == "USD")
 } yield currency + " " + amount
 
+// foreach is a statement (returns Unit) and is a higher order function
+amounts.foreach(amount => println(amount * 1000))
