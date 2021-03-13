@@ -1,6 +1,6 @@
 var amount = -100
 
-match {
+amount match {
   case 50 => println("$50")
   case 100 => println("$100")
   case _ => println("Not a recognised amount")
