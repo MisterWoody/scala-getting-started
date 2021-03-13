@@ -12,3 +12,6 @@ def sumOdd(n: Int): Int = {
   println(odds.mkString(","))
   odds.sum
 }
+
+sumOdd(10)
+
