@@ -11,3 +11,5 @@ def multiply(nums: Int*): Int =  {
 }
 
 val mul_10_20_30 = multiply(10, 20, 30)
+val mul_x_y = multiply(10, 20)
+val mul_multiple = multiply(10, 20, 30, 40, 50)
