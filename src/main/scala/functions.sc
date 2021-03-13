@@ -1,5 +1,5 @@
 def square(x: Int): Int = {
-  return x * x
+  x * x
 }
 
 val sq_2 = square(2)
