@@ -4,7 +4,7 @@ case class USD() extends Currency
 case class CAD() extends Currency
 case class NZD() extends Currency
 
-val currency: Currency = NZD()
+val currency: Currency = CAD()
 val amount = 100
 
 
