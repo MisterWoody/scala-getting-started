@@ -10,3 +10,5 @@ val result: Array[String] = for {
 
 // foreach is a statement (returns Unit) and is a higher order function
 amounts.foreach(amount => println(amount * 1000))
+List(1, 2, 3, 4).foreach(num => println(num * 20))
+
