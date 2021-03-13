@@ -1,6 +1,7 @@
-var i = 1
+var i = 10
 
-while (i <= 10) {
+while (i > 0) {
   println(i)
-  i = i + 1
+  i = i - 1
 }
+
