@@ -1,4 +1,4 @@
-var amount = 100
+var amount = 1001
 
 
 amount match {
