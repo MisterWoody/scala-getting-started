@@ -1,9 +1,8 @@
 case class Currency(code: String, amount: Double, toUSD: Double)
 
-
 object Implicits extends App {
   // money "USD 100" for example
-  def stringToCurrency(money: String): Currency = {
+  implicit def stringToCurrency(money: String): Currency = {
     val Array(code: String, value: String) = money.split("\\s")
     val amountAsDouble = value.toDouble
     code match {
@@ -15,9 +14,8 @@ object Implicits extends App {
 
   println(stringToCurrency("USD 100"))
   println(stringToCurrency("NZD 100"))
+//  println(stringToCurrency("CAD 100"))
 
   val cad: Currency = "CAD 100"// This is our goal to get working
-
-
 }
 
