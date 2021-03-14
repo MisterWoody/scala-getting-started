@@ -11,7 +11,7 @@ object Main {
     val utils: Utils = new Utils()
 
 
-    val rate: Double = ???
+    val rate: Double = utils.getRateFrom(code)
     println(args(0) + " = USD " + (rate * valueAsDouble))
   }
 }
@@ -19,4 +19,12 @@ object Main {
 class Utils {
   private val cadToUsd: Double = 1 / 1.30
   private val nzdToUsd: Double = 1 / 1.50
+
+  def getRateFrom(code: String): Double = {
+    println("getting rate for " + code)
+    code match {
+      case "CAD" => cadToUsd
+      case "NZD" => nzdToUsd
+    }
+  }
 }
