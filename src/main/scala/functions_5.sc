@@ -23,4 +23,4 @@ numbers.map(num => num * 2)
 numbers.filter(num => num % 2 == 0)
 numbers.filter(num => num % 2 == 1)
 
-
+val cad: Currency = "CAD 100"
