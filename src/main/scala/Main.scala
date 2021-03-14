@@ -8,7 +8,15 @@ object Main {
       sys.exit()
     }
 
+    val utils: Utils = new Utils()
+
+
     val rate: Double = ???
     println(args(0) + " = USD " + (rate * valueAsDouble))
   }
+}
+
+class Utils {
+  private val cadToUsd: Double = 1 / 1.30
+  private val nzdToUsd: Double = 1 / 1.50
 }
