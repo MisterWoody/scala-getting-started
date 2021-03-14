@@ -15,4 +15,5 @@ transform(cube, 1, 2, 3, 4)
 transform((n: Int) => n * n, 1, 2, 3, 4, 5)
 transform(n => n * n, 1, 2, 3)
 transform(n => n * n * n, 1, 2, 3)
+transform(n => 2 * n, 1, 2, 3)
 
