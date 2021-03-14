@@ -1,3 +1,5 @@
+
+
 def square(n: Int): Int = n * n // Int => Int
 
 def cube(n: Int): Int = n * n * n // Int => Int
@@ -23,4 +25,7 @@ numbers.map(num => num * 2)
 numbers.filter(num => num % 2 == 0)
 numbers.filter(num => num % 2 == 1)
 
+import Implicits.stringToCurrency
 val cad: Currency = "CAD 100"
+
+val cad2: Currency = "CAD 200"
