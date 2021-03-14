@@ -17,5 +17,7 @@ object Implicits extends App {
 //  println(stringToCurrency("CAD 100"))
 
   val cad: Currency = "CAD 100"// This is our goal to get working
+  println(cad)
+
 }
 
